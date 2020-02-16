@@ -5,22 +5,22 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <!-- <link rel="stylesheet" href="./css/style-build.css"> -->
+  <link rel="stylesheet" href="./css/reset.css">
   <link rel="stylesheet" href="./css/style-dev.css">
   <!-- <link rel="stylesheet" href="./css/style-build.css"> -->
 
   <title>JR Maschietto Portfolio</title>
 </head>
 <body>
-  <video autoplay muted loop type="video/mp4" src="https://vod-progressive.akamaized.net/exp=1581821775~acl=%2A%2F1485213525.mp4%2A~hmac=03337ce144995d63d90e83d4cc685d22c72a0d1bf40e7dc7345a16bcf245f8c0/vimeo-prod-skyfire-std-us/01/2359/14/361798566/1485213525.mp4">Your browser does not support HTML5 video.</video>
+  <video autoplay muted loop type="video/mp4" src="https://vod-progressive.akamaized.net/exp=1581821775~acl=%2A%2F1485213525.mp4%2A~hmac=03337ce144995d63d90e83d4cc685d22c72a0d1bf40e7dc7345a16bcf245f8c0/vimeo-prod-skyfire-std-us/01/2359/14/361798566/1485213525.mp4"></iframe>">Your browser does not support HTML5 video.</video>
 
-  <div class="home">
+  <!-- <main class="home"> -->
     
-    <header>
-      <h1 class="main-heading"> <span class="text-animated">JR.maschietto</span></h1>
+    <header class="main-heading">
+      <h1> <span class="text-animated">JR.maschietto</span></h1>
     </header>
   
-    <section class="about-section">
-      
+    <section id="about-section" class="about-section">
       <div class="box-1">
         <h2><span class="text-animated">About Bla bla</span></h2>
         <p> <span class="text-animated"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis ab deleniti quam voluptatibus! Atque aut voluptates dolores. Ducimus ad ipsum itaque odit at consequatur eos blanditiis doloremque, libero quod est qui dolores, reprehenderit harum repellat ratione suscipit eveniet? Fuga, aliquid?</span></p>
@@ -32,15 +32,89 @@
   
     <nav class="nav-main">
       <ul>
-        <li><a href="#" class="btn-nav">RESUME</a></li>
+        <li><a href="#" class="btn-nav" id="btn-resume">RESUME</a></li>
         <li><a href="#" class="btn-nav">PORTFOLIO</a></li>
         <li><a href="#" class="btn-nav">LINKEDIN</a></li>
         <li><a href="#" class="btn-nav">GITHUB</a></li>
         <li><a href="#" class="btn-nav">CONTACT</a></li>
       </ul> 
     </nav>
+
+    <aricle id="resume-section" class="resume">
+      <section class="left-column">
+        <h2>SUMMARY OF QUALIFICATIONS</h2>
+        <h3>CODING</h3>
+        <ul>
+          <li>JavaScript</li>
+          <li>HTML5</li>
+          <li>CSS3</li>
+          <li>NodeJS</li>
+          <li>React-JS</li>
+          <li>React-Native</li>
+          <li>Flutter</li>
+          <li>Python</li>
+          <li>Haxe</li>
+          <li>Git</li>
+          <li>Bash Shell</li>
+        </ul> 
+
+        <h3>DESIGN TOOLS</h3>
+        <ul>
+          <li>Adobe XD</li>
+          <li>Adobe Illustrator</li>
+          <li>Adobe Photoshop</li>
+        </ul>        
+
+        <h3>GENERAL</h3>
+        <ul>
+          <li>Linux, Mac OS and Windows</li>
+          <li>Godot, Unity</li>
+          <li>Strong background in sales and management</li>
+          <li>Over 10 years of game development experience</li>
+        </ul>
+
+      </section>
+
+      <section class="right-column">
+        <h2>EXPERIENCE</h2>
+        <ol>
+          <li>(2019 - 2020) – <strong>STEM Montessori Academy of Canada</strong>
+            <p><strong>Position:</strong> Volonteer Lead Web Developer</p>
+            <em>Leading a team of remote developers building a Wordpress portal, UX/UI Design and theme customization with php, html and css.</em>
+          </li>
+
+          <li>(2013 - 2019) – <strong>Federal Public Bank – “Caixa Econômica Federal”</strong>
+            <p><strong>Position:</strong> Customer Relationship Manager</p>
+            <em>Expand and monetize the customers pool, interview and evaluate customers operations, concession and maintenance of building loans, training and team management.</em>
+          </li>
+
+
+          <li>(2016) – <strong>Ground Control Studios</strong>
+            <p><strong>Position:</strong> Freelancer Level Designer</p>
+            <em>Level Designing and programming of SWIPEZ game using Unity, C# and MonoDevelop IDE.</em>
+          </li>
+
+          <li>( 2012 - 2013) - <strong>Leandro Informática</strong>
+            <p><strong>Position:</strong> Web Designer</p>
+            <em>Web Sites development for companies such as restaurants, real states and service providers in general, with CMS ( Joomla!).</em>
+          </li>
+        </ol>
+
+        <h2>EDUCATION</h2>
+        <ol>
+          <li>( 2020 ) <strong>Web Design and Development </strong>
+            <p>Humber College, Toronto, ON</p>
+          </li>
+          <li>( 2018 ) <strong>Civil Engineering Bachelor Deegre</strong>
+            <p>Estácio Uniseb, Ribeirão Preto, SP </p>
+          </li>          
+        </ol>        
+
+      </section>
+      <a href="#"> <strong>PDF</strong> <strong> ⮯</strong> </a>
+    </aricle>   
     
-  </div>
-  
+  <!-- </main> -->
+  <script src="./js/main.js"></script>   
 </body>
 </html>
