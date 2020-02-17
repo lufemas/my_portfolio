@@ -26,7 +26,7 @@ body {
 video {
   position: fixed;
   /* height: 100%; */
-  /* width: 100%; */
+  width: 100%;
   right: 0;
   bottom: 0; 
   background-size: cover;
@@ -195,7 +195,9 @@ p .text-animated{
   grid-column: 1 / 4;
   /* height: 0; */
   display: none;
-  background-color: var(--bg-color-1);
+  background-color: white;
+  color: #000;
+  opacity: 70%;
   /* width: 100%; */
 }
 
